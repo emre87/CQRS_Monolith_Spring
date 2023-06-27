@@ -1,4 +1,7 @@
 # <div align="center">CQRS Design Pattern Java </div>
+
+For web scraping project
+
 This repository contains CQRS implementation in Java. I've written this code-base step by step on Medium that is my Turkish content as called "Java ile CQRS Design Pattern | Docker, Elasticsearch, RabbitMQ, Spring, MySQL"
 
 <div align="center">
@@ -146,10 +149,10 @@ Sending request to api then creating data on MySQL then sending RabbitMQ event t
 curl --location --request POST 'http://localhost:8080/classifieds' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "title": "Macbook Pro 2019",
-    "detail": "Sahibinden çok temiz Macbook Pro 2019.",
-    "price": 27894,
-    "categoryId": 47
+    "title": "Domates",
+    "detail": "Salkım domates",
+    "price": 25,
+    "categoryId": 3
 }'
 ```
 
